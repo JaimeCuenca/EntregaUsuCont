@@ -18,32 +18,66 @@
       <ColumnConstraints />
       <ColumnConstraints />
       <ColumnConstraints />
+      <ColumnConstraints />
    </columnConstraints>
    <children>
       <TextField promptText="usuario@email.es" GridPane.columnIndex="1">
-         <GridPane.margin>
+         <padding>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </GridPane.margin></TextField>
-      <TextField promptText="contraseña" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         </padding>
          <GridPane.margin>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </GridPane.margin></TextField>
-      <TextField alignment="CENTER" editable="false" text="e-mail/usuario">
-         <font>
-            <Font name="Verdana Bold" size="12.0" />
-         </font>
-         <GridPane.margin>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-         </GridPane.margin></TextField>
-      <TextField alignment="CENTER" editable="false" text="contraseña" GridPane.rowIndex="1">
-         <font>
-            <Font name="Verdana Bold" size="12.0" />
-         </font>
-         <GridPane.margin>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            <Insets bottom="5.0" left="5.0" top="5.0" />
          </GridPane.margin>
-      </TextField>
-      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Continuar" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-      <Button mnemonicParsing="false" text="Cancelar" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></TextField>
+      <TextField promptText="contraseña" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <GridPane.margin>
+            <Insets bottom="5.0" left="5.0" top="5.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></TextField>
+      <Button alignment="CENTER" mnemonicParsing="false" text="Continuar" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Button>
+      <Button mnemonicParsing="false" text="Cancelar" textAlignment="CENTER" textFill="#ae2020" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Verdana" size="12.0" />
+         </font></Button>
+      <Text fill="#7965c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Email/Usuario" GridPane.halignment="CENTER">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Text>
+      <Text fill="#7965c9" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </GridPane.margin>
+      </Text>
+      <Label text="Mostrar Contraseña" textAlignment="CENTER" textFill="#0000009d" underline="true" GridPane.columnIndex="3" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+         <font>
+            <Font name="Verdana" size="9.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="5.0" right="10.0" top="5.0" />
+         </GridPane.margin>
+      </Label>
    </children>
 </GridPane>
